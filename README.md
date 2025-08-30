@@ -47,7 +47,7 @@ pode ser corroborada com dados do IMRS e Data SUS.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i>
-</div>
+</div><br>
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
 dentro do município de Ouro Branco houve também um crescimento do seu PIB per
 capita sendo essa relação quase perfeita, sendo a variável explicativa significativa
@@ -86,7 +86,7 @@ outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
-</div>
+</div><br>
 Com esses resultados em mãos vê-se que para cada aumento em uma unidade no
 PIB per capita brasileiro é esperado um aumento de 3,137 unidades de crescimento
 no PIB per capita de Ouro Branco o que me levou a crer que haveria outras possíveis
@@ -98,7 +98,7 @@ explicações para o crescimento dele.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
-</div>
+</div><br>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
 per capita brasileiro e ouro branquense rodado o MQO simples, mas não quando
 há a presença de mais variáveis. A alta correlação entre as duas variáveis de
@@ -140,7 +140,7 @@ variáveis explicativas.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
-</div>
+</div><br>
 
 Aqui havia o pressuposto de que a variável de população seria significante, mas
 logo foi notado o equívoco dado que a população de Ouro Branco não teve uma
@@ -208,7 +208,7 @@ abaixo.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
-</div>
+</div><br>
 Talvez por incapacidade técnica ou teórica, eu particularmente não consegui extrair
 nenhuma interpretação desses dados. Segui, então, para os testes de Breush-
 Pagan e White. Sendo os resultados aqui apresentados nas figuras 7 e 8.
@@ -252,7 +252,7 @@ Feito isso segue abaixo resultados encontrados.
 </p>
 <div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software R.</i>
-</div>
+</div><br>
 A partir desse modelo chegamos à conclusão de que o valor adicionado da
 indústria de transformação não só é altamente significante para explicar o aumento
 acentuado do PIB per capita de Ouro Branco durante o período de 2000 – 2021,
