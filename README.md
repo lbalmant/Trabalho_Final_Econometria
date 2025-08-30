@@ -131,7 +131,7 @@ administração pública se tornou uma importante variável a estar no modelo at
 final do trabalho apesar da também baixa significância quando posta junto a outras
 variáveis explicativas.
 <p align="center">
-  Figura 4. Modelo com quatro variáveis
+  Figura 4. Modelo com quatro variáveis<br>
   <img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" /><br>
   <span style="font-size:12px;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
 </p>
@@ -165,11 +165,12 @@ minhas observações com os resíduos, sendo isto o desejável.
       </td>
       <td align="center" width="50%">
         <b>Figura 6. Gráfico da plotagem dos resíduos com as observações com a variável Valor Adicionado da Administração pública.</b><br>
-        <img width="436" height="294" src="https://github.com/user-attachments/assets/890a0639-abae-47e4-aa77-fa17e0f8a4d6" /><br>
+        <img width="425" height="278" src="https://github.com/user-attachments/assets/890a0639-abae-47e4-aa77-fa17e0f8a4d6" /><br>
         <i>Fonte: Elaboração própria utilizando o software estatístico R.</i>
       </td>
     </tr>
   </table>
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
 </p>
 
 Diminuindo, então, o teor de heterocedasticidade do modelo, mas possivelmente
@@ -181,6 +182,25 @@ heterocedasticidade. Para isto tentei os resíduos ao quadrado conta cada uma da
 variáveis independentes e elaborar um gráfico de dispersão para analisar
 visualmente o que estava acontecendo. Foram gerados três gráficos, que seguem
 abaixo.
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center" width="33.33%">
+        <b>Figura 7. </b><br>
+        <img width="350" height="278" src="https://github.com/user-attachments/assets/f6aa79d0-8043-425a-b3f0-ad7205eaf576" /><br>
+      </td>
+      <td align="center" width="33.33%">
+        <b>Figura 8.</b><br>
+        <img width="350" height="278" src="https://github.com/user-attachments/assets/99035aa6-93cf-4f6d-8077-1282581a60d9" /><br>
+      </td>
+      <td align="center" width="33.33%">
+        <b>Figura 9.</b><br>
+        <img width="350" height="278" src="https://github.com/user-attachments/assets/2c938e49-aec2-4bac-9936-591f018477b6" /><br>
+      </td>
+    </tr>
+  </table>
+</p>
 
 Figura 7. Figura 8. Figura 9.
 <img width="354" height="236" alt="image" src="https://github.com/user-attachments/assets/f6aa79d0-8043-425a-b3f0-ad7205eaf576" />
