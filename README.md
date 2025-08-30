@@ -38,7 +38,7 @@ adicionado pela indústria de transformação é um dos principais determinantes
 PIB municipal em regiões industriais. De fato, a relação entre o crescimento do PIB
 per capita de ouro branco e o valor adicionado pela indústria de transformação
 pode ser corroborada com dados do IMRS e Data SUS.
-<p align="center>
+<p align="center">
   Figura 1. Regressão linear simples entre o PIB per de Ouro Branco e o valor adicionado
   da indústria de transformação.
 </p>
@@ -80,8 +80,8 @@ outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
   brasileiro
 </p>
 
-<p align="center>
-  <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" />
+<p align="center">
+  <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" /><br>
   <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
 </p>
 
@@ -92,8 +92,7 @@ explicações para o crescimento dele.
 
 <p align="center">
   Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
-
-  <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425" />
+  <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425"/><br>
   <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
 </p>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
@@ -131,10 +130,11 @@ significante quando controlada por mais variáveis e o valor adicionado da
 administração pública se tornou uma importante variável a estar no modelo até o
 final do trabalho apesar da também baixa significância quando posta junto a outras
 variáveis explicativas.
-
-Figura 4. Modelo com quatro variáveis
-<img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" />
-Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.
+<p align="center">
+  Figura 4. Modelo com quatro variáveis
+  <img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" /><br>
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
+</p>
 
 Aqui havia o pressuposto de que a variável de população seria significante, mas
 logo foi notado o equívoco dado que a população de Ouro Branco não teve uma
@@ -155,20 +155,22 @@ mais a média dos resíduos a 0 e reduzir a variância destes. Aqui entrou a
 importância da variável do valor adicionado da administração pública pois tendo-a
 no modelo, este passou a apresentar uma distribuição mais aleatorizada das
 minhas observações com os resíduos, sendo isto o desejável.
-Figura 5. Gráfico da plotagem dos
-resíduos com as observações sem a
-variável Valor Adicionado da
-Administração pública.
-<img width="425" height="278" alt="image" src="https://github.com/user-attachments/assets/42f26e40-7f00-47b9-9919-ea2871d2f26b" />
-Figura 6. Gráfico da plotagem dos
-resíduos com as observações com a
-variável Valor Adicionado da
-Administração pública.
-Fonte: Elaboração própria utilizando o
-software estatístico R.
-<img width="436" height="294" alt="image" src="https://github.com/user-attachments/assets/890a0639-abae-47e4-aa77-fa17e0f8a4d6" />
-Fonte: Elaboração própria utilizando o
-software estatístico R.
+<p align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>Figura 5. Gráfico da plotagem dos resíduos com as observações sem a variável Valor Adicionado da Administração pública.</b><br>
+        <img width="425" height="278" src="https://github.com/user-attachments/assets/42f26e40-7f00-47b9-9919-ea2871d2f26b" /><br>
+        <i>Fonte: Elaboração própria utilizando o software estatístico R.</i>
+      </td>
+      <td align="center" width="50%">
+        <b>Figura 6. Gráfico da plotagem dos resíduos com as observações com a variável Valor Adicionado da Administração pública.</b><br>
+        <img width="436" height="294" src="https://github.com/user-attachments/assets/890a0639-abae-47e4-aa77-fa17e0f8a4d6" /><br>
+        <i>Fonte: Elaboração própria utilizando o software estatístico R.</i>
+      </td>
+    </tr>
+  </table>
+</p>
 
 Diminuindo, então, o teor de heterocedasticidade do modelo, mas possivelmente
 trazendo um problema relacionado a alta colinearidade que teve de ser corrigido
