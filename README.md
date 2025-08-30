@@ -44,11 +44,10 @@ pode ser corroborada com dados do IMRS e Data SUS.
 </p>
 <p align = "center">
   <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" /><br>
-  <span style="font-size:12px;display:block;text-align:right;">
-    <i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i>
-  </span>
 </p>
-
+<div style="font-size:12px;text-align:right;">
+  <i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i>
+</div>
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
 dentro do município de Ouro Branco houve também um crescimento do seu PIB per
 capita sendo essa relação quase perfeita, sendo a variável explicativa significativa
@@ -84,11 +83,10 @@ outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
 
 <p align="center">
   <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" /><br>
-  <span style="font-size:12px;display:block;text-align:right;">
-    <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
-  </span>
 </p>
-
+<div style="font-size:10px;text-align:right;">
+  <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
+</div>
 Com esses resultados em mãos vê-se que para cada aumento em uma unidade no
 PIB per capita brasileiro é esperado um aumento de 3,137 unidades de crescimento
 no PIB per capita de Ouro Branco o que me levou a crer que haveria outras possíveis
@@ -97,10 +95,10 @@ explicações para o crescimento dele.
 <p align="center">
   Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
   <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425"/><br>
-  <span style="font-size:12px;display:block;text-align:right;">
-    <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
-  </span>
 </p>
+<div style="font-size:10px;text-align:right;">
+  <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
+</div>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
 per capita brasileiro e ouro branquense rodado o MQO simples, mas não quando
 há a presença de mais variáveis. A alta correlação entre as duas variáveis de
@@ -139,10 +137,10 @@ variáveis explicativas.
 <p align="center">
   Figura 4. Modelo com quatro variáveis<br>
   <img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" /><br>
-  <span style="font-size:12px;display:block;text-align:right;">
-    <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
-  </span>
 </p>
+<div style="font-size:10px;text-align:right;">
+  <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
+</div>
 
 Aqui havia o pressuposto de que a variável de população seria significante, mas
 logo foi notado o equívoco dado que a população de Ouro Branco não teve uma
@@ -207,11 +205,10 @@ abaixo.
       </td>
     </tr>
   </table>
-  <span style="font-size:12px;display:block; text-align:right;">
-    <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
-  </span>
 </p>
-
+<div style="font-size: 10px; text-align: right;">
+  <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
+</div>
 Talvez por incapacidade técnica ou teórica, eu particularmente não consegui extrair
 nenhuma interpretação desses dados. Segui, então, para os testes de Breush-
 Pagan e White. Sendo os resultados aqui apresentados nas figuras 7 e 8.
@@ -252,11 +249,10 @@ Feito isso segue abaixo resultados encontrados.
 <p align="center">
   Figura 12. Modelo final ajustado para heterocedasticidade.
   <img width="886" height="445" alt="image" src="https://github.com/user-attachments/assets/ee74c13c-2d2e-4ea3-aa9c-77d69c72e059" /><br>
-  <span style="font-size:12px;display:block;text-align:right">
-    <i>Fonte: Elaboração própria, utilizando o software R.</i>
-  </span>
 </p>
-
+<div style="font-size:10px;display:block;text-align:right">
+  <i>Fonte: Elaboração própria, utilizando o software R.</i>
+</div>
 A partir desse modelo chegamos à conclusão de que o valor adicionado da
 indústria de transformação não só é altamente significante para explicar o aumento
 acentuado do PIB per capita de Ouro Branco durante o período de 2000 – 2021,
