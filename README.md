@@ -45,7 +45,7 @@ pode ser corroborada com dados do IMRS e Data SUS.
 <p align = "center">
   <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" /><br>
 </p>
-<div style="font-size:12px;text-align:right;">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i>
 </div>
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
@@ -84,7 +84,7 @@ outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
 <p align="center">
   <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" /><br>
 </p>
-<div style="font-size:10px;text-align:right;">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
 </div>
 Com esses resultados em mãos vê-se que para cada aumento em uma unidade no
@@ -96,7 +96,7 @@ explicações para o crescimento dele.
   Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
   <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425"/><br>
 </p>
-<div style="font-size:10px;text-align:right;">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
 </div>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
@@ -138,7 +138,7 @@ variáveis explicativas.
   Figura 4. Modelo com quatro variáveis<br>
   <img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" /><br>
 </p>
-<div style="font-size:10px;text-align:right;">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
 </div>
 
@@ -206,7 +206,7 @@ abaixo.
     </tr>
   </table>
 </p>
-<div style="font-size: 10px; text-align: right;">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
 </div>
 Talvez por incapacidade técnica ou teórica, eu particularmente não consegui extrair
@@ -250,7 +250,7 @@ Feito isso segue abaixo resultados encontrados.
   Figura 12. Modelo final ajustado para heterocedasticidade.
   <img width="886" height="445" alt="image" src="https://github.com/user-attachments/assets/ee74c13c-2d2e-4ea3-aa9c-77d69c72e059" /><br>
 </p>
-<div style="font-size:10px;display:block;text-align:right">
+<div align="right" style="font-size: 10px;">
   <i>Fonte: Elaboração própria, utilizando o software R.</i>
 </div>
 A partir desse modelo chegamos à conclusão de que o valor adicionado da
