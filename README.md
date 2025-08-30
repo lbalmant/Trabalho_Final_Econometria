@@ -1,4 +1,4 @@
-Objetivo
+<b>Objetivo</b>
 
 O objetivo deste trabalho é analisar os determinantes do alto crescimento do PIB
 per capita do município de Ouro Branco, Minas Gerais, entre o período de 2000 a
@@ -8,7 +8,7 @@ adicionado da indústria de transformação, do valor adicionado da administraç
 pública e de outras variáveis econômicas que podem estar relacionadas o PIB per
 capita do município de Ouro Branco.
 
-Introdução
+<b>Introdução</b>
 
 Ouro Branco é uma cidade do estado de Minas Gerais que foi elevado a município
 em 1953, está localizado na região central do estado e ocupa uma área de cerca de
@@ -44,7 +44,9 @@ pode ser corroborada com dados do IMRS e Data SUS.
 </p>
 <p align = "center">
   <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" /><br>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i></span>
+  <span style="font-size:12px;display:block;text-align:right;">
+    <i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i>
+  </span>
 </p>
 
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
@@ -68,7 +70,7 @@ Dentre as quais, destaco:
 • Empregados – Industria de transformação – IMRS;
 • População de Ouro Branco – IMRS
 
-Primeira análise
+<b>Primeira análise</b>
 
 Em uma primeira análise preocupei-me em verificar se o crescimento do PIB per
 capita de Ouro Branco não seria devido apenas ao crescimento natural da
@@ -82,7 +84,9 @@ outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
 
 <p align="center">
   <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" /><br>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
+  <span style="font-size:12px;display:block;text-align:right;">
+    <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
+  </span>
 </p>
 
 Com esses resultados em mãos vê-se que para cada aumento em uma unidade no
@@ -93,7 +97,9 @@ explicações para o crescimento dele.
 <p align="center">
   Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
   <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425"/><br>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
+  <span style="font-size:12px;display:block;text-align:right;">
+    <i>Fonte: Elaboração própria, utilizando o software estatístico R.</i>
+  </span>
 </p>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
 per capita brasileiro e ouro branquense rodado o MQO simples, mas não quando
@@ -116,7 +122,7 @@ positiva entre o valor adicionado da indústria de transformação e a mesma.
 Também é importante frisar que essas duas lógicas se mantiveram inalteradas em
 análises posteriores.
 
-Segunda análise
+<b>Segunda análise</b>
 
 Em uma segunda análise dediquei-me a apanhar uma maior quantidade de dados
 que pudessem servir para a explicação da minha variável dependente, dentre elas
@@ -133,7 +139,9 @@ variáveis explicativas.
 <p align="center">
   Figura 4. Modelo com quatro variáveis<br>
   <img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/d65ea54b-61f0-4036-8d74-8f88748b3e3e" /><br>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
+  <span style="font-size:12px;display:block;text-align:right;">
+    <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
+  </span>
 </p>
 
 Aqui havia o pressuposto de que a variável de população seria significante, mas
@@ -147,7 +155,7 @@ também dobrou nesse último ano.
 Seguiu-se a partir daqui diversos testes de modelos para verificar qual teria o
 melhor ajuste.
 
-Análise final
+<b>Análise final</b>
 
 Após testes de modelos com diferentes tipos de variáveis procurando o melhor
 ajuste que contribui com o modelo no sentido de aumentar R² ajustado, aproximar
@@ -199,7 +207,9 @@ abaixo.
       </td>
     </tr>
   </table>
-  <span style="font-size:12px;display:block; text-align:right;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
+  <span style="font-size:12px;display:block; text-align:right;">
+    <i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i>
+  </span>
 </p>
 
 Talvez por incapacidade técnica ou teórica, eu particularmente não consegui extrair
@@ -242,7 +252,9 @@ Feito isso segue abaixo resultados encontrados.
 <p align="center">
   Figura 12. Modelo final ajustado para heterocedasticidade.
   <img width="886" height="445" alt="image" src="https://github.com/user-attachments/assets/ee74c13c-2d2e-4ea3-aa9c-77d69c72e059" /><br>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software R.</i></span>
+  <span style="font-size:12px;display:block;text-align:right">
+    <i>Fonte: Elaboração própria, utilizando o software R.</i>
+  </span>
 </p>
 
 A partir desse modelo chegamos à conclusão de que o valor adicionado da
@@ -255,7 +267,8 @@ grande parte da existência de Ouro Branco, infelizmente não fui capaz de encon
 dados de tempos anteriores à chegada da GERDAU no município para termos de
 comparativos.
 
-Conclusão
+<b>Conclusão</b>
+
 O presente trabalho teve como objetivo principal analisar os determinantes do alto
 crescimento do PIB per capita do município de Ouro Branco, Minas Gerais, entre
 2000 e 2021, com ênfase no impacto das variáveis econômicas, especialmente o
