@@ -1,4 +1,5 @@
 Objetivo
+
 O objetivo deste trabalho é analisar os determinantes do alto crescimento do PIB
 per capita do município de Ouro Branco, Minas Gerais, entre o período de 2000 a
 2021, utilizando modelos de regressão linear múltipla. Em particular, buscamos
@@ -37,12 +38,16 @@ adicionado pela indústria de transformação é um dos principais determinantes
 PIB municipal em regiões industriais. De fato, a relação entre o crescimento do PIB
 per capita de ouro branco e o valor adicionado pela indústria de transformação
 pode ser corroborada com dados do IMRS e Data SUS.
-
-Figura 1. Regressão linear simples entre o PIB per de Ouro Branco e o valor adicionado
-da indústria de transformação.
-<img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" />
-Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).
-
+<p align="center>
+  Figura 1. Regressão linear simples entre o PIB per de Ouro Branco e o valor adicionado
+  da indústria de transformação.
+</p>
+<p align = "center">
+  <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" />
+</p>
+<p align="right style="font-size:12px;">
+  Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).
+</p>
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
 dentro do município de Ouro Branco houve também um crescimento do seu PIB per
 capita sendo essa relação quase perfeita, sendo a variável explicativa significativa
@@ -65,6 +70,7 @@ Dentre as quais, destaco:
 • População de Ouro Branco – IMRS
 
 Primeira análise
+
 Em uma primeira análise preocupei-me em verificar se o crescimento do PIB per
 capita de Ouro Branco não seria devido apenas ao crescimento natural da
 economia brasileira, para isso utilizei dados do PIB per capita brasileiro durante o
@@ -107,6 +113,7 @@ Também é importante frisar que essas duas lógicas se mantiveram inalteradas e
 análises posteriores.
 
 Segunda análise
+
 Em uma segunda análise dediquei-me a apanhar uma maior quantidade de dados
 que pudessem servir para a explicação da minha variável dependente, dentre elas
 posso destacar o “valor adicionado da administração pública” e a “evolução da
@@ -136,6 +143,7 @@ Seguiu-se a partir daqui diversos testes de modelos para verificar qual teria o
 melhor ajuste.
 
 Análise final
+
 Após testes de modelos com diferentes tipos de variáveis procurando o melhor
 ajuste que contribui com o modelo no sentido de aumentar R² ajustado, aproximar
 mais a média dos resíduos a 0 e reduzir a variância destes. Aqui entrou a
