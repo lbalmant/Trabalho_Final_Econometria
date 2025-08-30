@@ -170,7 +170,6 @@ minhas observações com os resíduos, sendo isto o desejável.
       </td>
     </tr>
   </table>
-  <span style="font-size:12px;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
 </p>
 
 Diminuindo, então, o teor de heterocedasticidade do modelo, mas possivelmente
@@ -200,21 +199,29 @@ abaixo.
       </td>
     </tr>
   </table>
+  <span style="font-size:12px;display:block; text-align:right;"><i>Fonte: Elaboração própria, com dados do IMRS, data SUS e IPEA data.</i></span>
 </p>
 
-Figura 7. Figura 8. Figura 9.
-<img width="354" height="236" alt="image" src="https://github.com/user-attachments/assets/f6aa79d0-8043-425a-b3f0-ad7205eaf576" />
-<img width="354" height="236" alt="image" src="https://github.com/user-attachments/assets/99035aa6-93cf-4f6d-8077-1282581a60d9" />
-<img width="354" height="237" alt="image" src="https://github.com/user-attachments/assets/2c938e49-aec2-4bac-9936-591f018477b6" />
-Fonte: Elaboração própria, utilizando o software estatístico R.
 Talvez por incapacidade técnica ou teórica, eu particularmente não consegui extrair
 nenhuma interpretação desses dados. Segui, então, para os testes de Breush-
 Pagan e White. Sendo os resultados aqui apresentados nas figuras 7 e 8.
 
-Figura 7. Teste de Breush-Pagan. Figura 8. Resultado do Teste de White.
-<img width="422" height="107" alt="image" src="https://github.com/user-attachments/assets/341c9a53-14ae-4084-a5d2-db0a4342f540" />
-<img width="389" height="95" alt="image" src="https://github.com/user-attachments/assets/7e7d9481-59c2-4e01-a490-42b8b5240bcb" />
-Fonte: Elaboração própria. Fonte: Elaboração própria.
+<p align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>Figura 10. Teste de Breush-Pagan.</b><br>
+        <img width="425" height="278" src="https://github.com/user-attachments/assets/341c9a53-14ae-4084-a5d2-db0a4342f540" /><br>
+        <i>Fonte: Elaboração própria utilizando o software estatístico R.</i>
+      </td>
+      <td align="center" width="50%">
+        <b>Figura 11. Resultado do Teste de White.</b><br>
+        <img width="425" height="278" src="https://github.com/user-attachments/assets/7e7d9481-59c2-4e01-a490-42b8b5240bcb" /><br>
+        <i>Fonte: Elaboração própria utilizando o software estatístico R.</i>
+      </td>
+    </tr>
+  </table>
+</p>
 
 Apesar de haver um valor maior do que 5% para o teste de White é possível verificar
 a presença de heterocedasticidade no modelo. Além disso, ao tentar corrigir a
@@ -232,10 +239,11 @@ a um problema de escala com as variáveis.
 Para resolver o problema, então, padronizou-se as variáveis subtraindo a média e
 dividindo pelo desvio padrão para tentar melhorar o condicionamento do modelo.
 Feito isso segue abaixo resultados encontrados.
-
-Figura 9. Modelo final ajustado para heterocedasticidade.
-<img width="886" height="445" alt="image" src="https://github.com/user-attachments/assets/ee74c13c-2d2e-4ea3-aa9c-77d69c72e059" />
-Fonte: Elaboração própria, utilizando o software R.
+<p align="center">
+  Figura 12. Modelo final ajustado para heterocedasticidade.
+  <img width="886" height="445" alt="image" src="https://github.com/user-attachments/assets/ee74c13c-2d2e-4ea3-aa9c-77d69c72e059" /><br>
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software R.</i></span>
+</p>
 
 A partir desse modelo chegamos à conclusão de que o valor adicionado da
 indústria de transformação não só é altamente significante para explicar o aumento
