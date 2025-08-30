@@ -43,11 +43,10 @@ pode ser corroborada com dados do IMRS e Data SUS.
   da indústria de transformação.
 </p>
 <p align = "center">
-  <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" />
+  <img width="633" height="444" alt="image" src="https://github.com/user-attachments/assets/18d6e65e-04b6-4d82-8605-dd4b38ac0f0b" /><br>
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).</i></span>
 </p>
-<p align="right style="font-size:12px;">
-  Fonte: Elaboração própria, a partir de dados do IMRS (2002 - 2021) e do Data SUS (2000-2001).
-</p>
+
 O gráfico acima mostra que à medida que se cresceu a indústria de transformação
 dentro do município de Ouro Branco houve também um crescimento do seu PIB per
 capita sendo essa relação quase perfeita, sendo a variável explicativa significativa
@@ -76,21 +75,27 @@ capita de Ouro Branco não seria devido apenas ao crescimento natural da
 economia brasileira, para isso utilizei dados do PIB per capita brasileiro durante o
 mesmo período para estimar uma regressão linear simples e em seguida injetei
 outras variáveis no modelo para verificar seu ajuste a mais de uma variável.
+<p align="center">
+  Figura 2. Regressão linear simples para PIB per capita de Ouro Branco e PIB per capita
+  brasileiro
+</p>
 
-Figura 2. Regressão linear simples para PIB per capita de Ouro Branco e PIB per capita
-brasileiro
-<img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" />
-Fonte: Elaboração própria, utilizando o software estatístico R.
+<p align="center>
+  <img width="747" height="227" alt="image" src="https://github.com/user-attachments/assets/490a9a5c-95b5-468c-9e46-73176a3ccffb" />
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
+</p>
 
 Com esses resultados em mãos vê-se que para cada aumento em uma unidade no
 PIB per capita brasileiro é esperado um aumento de 3,137 unidades de crescimento
 no PIB per capita de Ouro Branco o que me levou a crer que haveria outras possíveis
 explicações para o crescimento dele.
 
-Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
-<img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425" />
-Fonte: Elaboração própria, utilizando o software estatístico R.
+<p align="center">
+  Figura 3. Regressão múltipla para análise do PIB per capita brasileiro
 
+  <img width="656" height="413" alt="image" src="https://github.com/user-attachments/assets/df4c3777-c133-4596-a22c-ad4670d61425" />
+  <span style="font-size:12px;"><i>Fonte: Elaboração própria, utilizando o software estatístico R.</i></span>
+</p>
 Desse modo foi possível identificar uma alta correlação entre as variáveis do PIB
 per capita brasileiro e ouro branquense rodado o MQO simples, mas não quando
 há a presença de mais variáveis. A alta correlação entre as duas variáveis de
